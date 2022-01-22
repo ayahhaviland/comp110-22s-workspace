@@ -52,4 +52,4 @@ else:
     if number_of_matching_variables == 1:
         print("1 instance of " + character + " found in " + word)
     else: 
-        print(number_of_matching_variables, " instances of " + character + " found in " + word)
+        print(number_of_matching_variables, "instances of " + character + " found in " + word)

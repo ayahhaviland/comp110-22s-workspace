@@ -1,6 +1,6 @@
 """EX01 - Chardle - A cute step toward Wordle."""
 
-__author__ = 730236204
+__author__ = "730236204"
 
 word: str = input("Enter a 5-character word: ")
 
@@ -47,9 +47,9 @@ if character == word[4]:
     number_of_matching_variables = number_of_matching_variables + 1
 
 if number_of_matching_variables == 0:
-    print("0 instances of " + character + " found in" + word)
+    print("No instances of " + character + " found in " + word)
 else:
     if number_of_matching_variables == 1:
-        print("1 instance of " + character + " found in" + word)
+        print("1 instance of " + character + " found in " + word)
     else: 
         print(number_of_matching_variables, " instances of " + character + " found in " + word)

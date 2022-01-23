@@ -1,3 +1,4 @@
+
 """EX01 - Chardle - A cute step toward Wordle."""
 
 __author__ = "730236204"
@@ -24,32 +25,32 @@ else:
 
 print("Searching for " + character + " in " + word)
 
-number_of_matching_variables = 0 
+matching_characters = 0 
 
 if character == word[0]:
     print(character + " found at index 0")
-    number_of_matching_variables = number_of_matching_variables + 1
+    matching_characters = matching_characters + 1
 
 if character == word[1]:
     print(character + " found at index 1")
-    number_of_matching_variables = number_of_matching_variables + 1
+    matching_characters = matching_characters + 1
 
 if character == word[2]:
     print(character + " found at index 2")
-    number_of_matching_variables = number_of_matching_variables + 1
+    matching_characters = matching_characters + 1
 
 if character == word[3]:
     print(character + " found at index 3")
-    number_of_matching_variables = number_of_matching_variables + 1
+    matching_characters = matching_characters + 1
 
 if character == word[4]:
     print(character + " found at index 4")
-    number_of_matching_variables = number_of_matching_variables + 1
+    matching_characters = matching_characters + 1
 
-if number_of_matching_variables == 0:
+if matching_characters == 0:
     print("No instances of " + character + " found in " + word)
 else:
-    if number_of_matching_variables == 1:
+    if matching_characters == 1:
         print("1 instance of " + character + " found in " + word)
     else: 
-        print(number_of_matching_variables, "instances of " + character + " found in " + word)
+        print(matching_characters, "instances of " + character + " found in " + word)

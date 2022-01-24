@@ -52,5 +52,13 @@ if matching_characters == 0:
 else:
     if matching_characters == 1:
         print("1 instance of " + character + " found in " + word)
-    else: 
-        print(matching_characters, "instances of " + character + " found in " + word)
+if matching_characters == 2:
+    print("2 instances of " + character + " found in " + word)
+else:
+    if matching_characters == 3:
+        print("3 instances of " + character + " found in " + word)
+if matching_characters == 4:
+    print("4 instances of " + character + " found in " + word)
+else:
+    if matching_characters == 5:
+        print("5 instances of " + character + " found in " + word)

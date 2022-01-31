@@ -10,7 +10,7 @@ YELLOW_BOX: str = "\U0001F7E8"
 
 guess: str = input("What is your 6-letter guess? ")
 
-while len(guess) < 6 or len(guess) > 6:
+while len(guess) < len(SECRET_WORD) or len(guess) > len(SECRET_WORD):
     guess: str = input("That was not 6 letters! Try again: ")
 
 # variable to track index
